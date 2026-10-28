@@ -6788,7 +6788,7 @@ dsh plugin --profile web add dshmarket
 - [aa2246740/dsh-auto-review](https://github.com/aa2246740/dsh-auto-review) — 为 DSH 工具调用提供 Auto-review 和 Approve for me 模式。
 - [accpowered/dsh-auto-review](https://github.com/accpowered/dsh-auto-review) — 沙箱越权审批的 LLM 应答器：先过确定性正则过滤，再交给干净上下文的审核模型；拿不准才转人工。需要随附的核心补丁。
 - [accpowered/dsh-credential-manager](https://github.com/accpowered/dsh-credential-manager) — 具名凭据按引用使用：秘密值在「设置 → 凭据」页录入，按次注入 shell 执行环境的 DSH_CM_* 变量而不打印进对话，credential_read 是文档化的最后手段。
-- [ADWMC/helm-d#helmd](https://github.com/ADWMC/helm-d/tree/main/packages/helmd) — 单包逆向与渗透测试安全分析插件：首轮工具收敛、领域路由与 33 个工具，覆盖 APK、Web、原生二进制、协议、恶意样本与 LLM 场景的逆向分析、加壳脱壳与 License 破解绕过；内置 H-CoT 评估引擎（语义路由、/hcot 命令）、账本驱动的 Web 工作台与工具货架、磁盘案件工作区（证据链自动存证、E 编号结论校验、上下文压缩后恢复）、GitHub 工具检索与 361 篇按需参考文档。
+- [ADWMC/helm-d#helmd](https://github.com/ADWMC/helm-d/tree/main/packages/helmd) — DeepSeek Harness 的安全分析插件：33 个工具覆盖六大安全域、证据/报告与工具集，并提供案件生命周期、路由和工具账本；按会话绑定的案件工作区支持证据链、E 编号校验与可复现结论（repro_cmd）；内置 362 篇按需参考、三档可热切换人设，以及带案件状态恢复的破甲 / Case / 拦截 / 关于四页工作台。
 - [AHIOSUZ/dsh-workspace-tools](https://github.com/AHIOSUZ/dsh-workspace-tools) — 按工作区规则为新建根会话自动应用 Agent 预设与权限预设（设置 - 工作区默认设置），仅使用官方扩展点。
 - [AhYi8/dsh-agent-recycle-guard](https://github.com/AhYi8/dsh-agent-recycle-guard) — 把 Agent 提交的删除命令（PowerShell `Remove-Item` 及别名、Bash `rm`/`unlink`/`rmdir`、CMD `del`/`erase`/`rd`/`rmdir`）改写为 Windows、Linux、macOS 的系统回收站操作，执行脚本前尽力检查其中的同类删除操作，且不提供永久删除兜底。
 - [alaxrpg/dsh-llm-approve-for-me](https://github.com/alaxrpg/dsh-llm-approve-for-me) — 使用隔离的 LLM 审查来批准或拒绝 DSH 沙箱权限请求。
